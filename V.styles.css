@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu {
+    padding: 2rem;
+    text-align: center;
+}
+
+.comida-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.comida-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.comida-item h3 {
+    margin: 0.5rem 0;
+}
+
+.comida-item p {
+    color: #666;
+}
+
+.precio {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+button {
+    background-color: #ff6347;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e55337;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
