@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Comida</title>
+    <link rel="stylesheet" href="B.styles.css">
+    <script defer src="B.script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Comida</h1>
+        <nav>
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Menu.html">Menú</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="Local.html">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu">
+        <h2>Menú</h2>
+        <div class="comida-item">
+            <img src="Hamburguesa.jpeg" alt="Hamburguesa">
+            <h3>Hamburguesa</h3>
+            <p>Deliciosa hamburguesa con queso, lechuga y tomate.</p>
+            <span class="precio">$55</span>
+            <button onclick="addToCart('Hamburguesa', 55)">Añadir al carrito</button>
+        </div>
+
+        <div class="comida-item">
+            <img src="Tacos.jpeg" alt="Tacos">
+            <h3>Tacos</h3>
+            <p>Tacos de bistec.</p>
+            <span class="precio">$75</span>
+            <button onclick="addToCart('Tacos', 75)">Añadir al carrito</button>
+        </div>
+
+        <div class="comida-item">
+            <img src="Sopes.jpeg" alt="Sopes">
+            <h3>Sopes</h3>
+            <p>Deliciosa hamburguesa con queso, lechuga y tomate.</p>
+            <span class="precio">$75</span>
+            <button onclick="addToCart('Sopes', 75)">Añadir al carrito</button>
+        </div>
+
+        <div class="comida-item">
+            <img src="Gorditas.jpeg" alt="Gorditas">
+            <h3>Gorditas</h3>
+            <p>Deliciosa hamburguesa con queso, lechuga y tomate.</p>
+            <span class="precio">$75</span>
+            <button onclick="addToCart('Gorditas', 75)">Añadir al carrito</button>
+        </div>
+
+        <div class="comida-item">
+            <img src="Flautas.jpeg" alt="Flautas">
+            <h3>Flautas</h3>
+            <p>Deliciosa hamburguesa con queso, lechuga y tomate.</p>
+            <span class="precio">$75</span>
+            <button onclick="addToCart('Flautas', 75)">Añadir al carrito</button>
+        </div>
+
+        <div class="comida-item">
+            <img src="Hamburguesa.jpeg" alt="Frijoles a la charra">
+            <h3>Frijoles a la charra</h3>
+            <p>Deliciosa hamburguesa con queso, lechuga y tomate.</p>
+            <span class="precio">$35</span>
+            <button onclick="addToCart('Frijoles a la charra', 40)">Añadir al carrito</button>
+        </div>
+        <!-- Añadir más elementos de comida aquí -->
+    </section>
+</body>
+</html>
